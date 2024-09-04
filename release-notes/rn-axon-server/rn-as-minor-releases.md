@@ -5,6 +5,19 @@ older releases check either [Axon Server Enterprise Edition](rn-asee-minor-relea
 
 ## Release 2024.1
 
+## Release 2024.1.2
+
+Bug fixes and improvements:
+- Redistribute clients across Axon Server nodes when a node is restarted
+- Event processor operations fail when the processing group contains a forward slash
+- Potential replication issue when trying to apply events for already closed contexts during shutdown of Axon Server
+- Increased maximum length for the username to 255 characters
+- Update the event store size when a new index file is created
+- Visual improvements in search table: headers not visible by default & action not visible by default
+- Improved logging in the event store
+- Stop replication applying process when the replication group is stopped
+- Global Index pre-load for configured contexts
+
 ## Release 2024.1.1
 
 Bug fixes and improvements:
@@ -72,7 +85,14 @@ New configuration parameters:
 
 ## Release 2023.2
 
-## Release 2024.2.8
+## Release 2023.2.9
+
+Bug fixes and improvements:
+- Redistribute clients across Axon Server nodes when a node is restarted
+- Event processor operations fail when the processing group contains a forward slash
+- Potential replication issue when trying to apply events for already closed contexts during shutdown of Axon Server
+
+## Release 2023.2.8
 
 Bug fixes and improvements:
 - Revert optimization in replication from version 2023.2.4, as it could lead to a node entering fatal state
