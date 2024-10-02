@@ -1,5 +1,12 @@
 # Spring AMQP
 
+> Legacy Documentation Warning!
+>
+> Since the first of October 2024, we moved Axon's documentation from the "Reference Guide" to "AxonIQ Docs."
+> You can find the latter at https://docs.axoniq.io/
+>
+> Hence, if you are looking for the documentation for newer versions of Axon Framework, Axon Server, or any of the Framework Extensions, we strongly recommend you browse to [AxonIQ Docs](https://docs.axoniq.io/) instead.
+
 Spring AMQP is an alternative approach to distributing events, besides Axon Server which is the default.
 
 Axon provides out-of-the-box support to transfer events to and from an AMQP message broker, such as [RabbitMQ](https://www.rabbitmq.com/).

@@ -1,5 +1,12 @@
 # Tracing
 
+> Legacy Documentation Warning!
+>
+> Since the first of October 2024, we moved Axon's documentation from the "Reference Guide" to "AxonIQ Docs."
+> You can find the latter at https://docs.axoniq.io/
+>
+> Hence, if you are looking for the documentation for newer versions of Axon Framework, Axon Server, or any of the Framework Extensions, we strongly recommend you browse to [AxonIQ Docs](https://docs.axoniq.io/) instead.
+
 This extension provides functionality to trace command, event and query messages flowing through an Axon application by providing a specific implementation of the `CommandGateway`, `QueryGateway`, `MessageDispatchInterceptor` and `MessageHandlerInterceptor`. The [Open Tracing](https://opentracing.io/) standard is used to provide tracing capabilities, which thus allows usage of several Open Tracing implementations.
 
 With this instrumentation, we can chain synchronous and asynchronous commands and queries, all belonging to the same parent span. A request can be visualized and analysed across Axon clients, command handlers, query handlers and event handlers, when running together or decomposed and deployed as separate parts \(distributed\).

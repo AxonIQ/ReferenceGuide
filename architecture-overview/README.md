@@ -1,5 +1,12 @@
 # Architecture Overview
 
+> Legacy Documentation Warning!
+>
+> Since the first of October 2024, we moved Axon's documentation from the "Reference Guide" to "AxonIQ Docs."
+> You can find the latter at https://docs.axoniq.io/
+>
+> Hence, if you are looking for the documentation for newer versions of Axon Framework, Axon Server, or any of the Framework Extensions, we strongly recommend you browse to [AxonIQ Docs](https://docs.axoniq.io/) instead.
+
 Axon based applications follow an architectural pattern which is based on the principles of Domain-Driven Design \(DDD\), Command Query Responsibility Segregation \(CQRS\) and Event-Driven Architecture \(EDA\). The combination of these principles make Axon based applications more robust and adaptable to accommodate change required by the changes in our business domain.
 
 Axon finds its use in both large monolithic applications, wherein the internal structure is essential to keep the monolith adaptable, as well as microservices, where the distributed nature of the system adds complexity.

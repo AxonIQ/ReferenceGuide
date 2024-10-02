@@ -1,5 +1,12 @@
 # JobRunrPro
 
+> Legacy Documentation Warning!
+>
+> Since the first of October 2024, we moved Axon's documentation from the "Reference Guide" to "AxonIQ Docs."
+> You can find the latter at https://docs.axoniq.io/
+>
+> Hence, if you are looking for the documentation for newer versions of Axon Framework, Axon Server, or any of the Framework Extensions, we strongly recommend you browse to [AxonIQ Docs](https://docs.axoniq.io/) instead.
+
 The purpose of this extension is to leverage some features only available in the Pro version of [JobRunr](https://www.jobrunr.io/en/documentation/pro/).
 Only the Pro version allows to search existing jobs by status and label. This is required for the deadline manager to implement the `cancelAll` methods.
 The [deadline managers](../axon-framework/deadlines/deadline-managers.md) section has more in depth information on deadline managers.

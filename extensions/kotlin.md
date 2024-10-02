@@ -1,5 +1,12 @@
 # Kotlin
 
+> Legacy Documentation Warning!
+>
+> Since the first of October 2024, we moved Axon's documentation from the "Reference Guide" to "AxonIQ Docs."
+> You can find the latter at https://docs.axoniq.io/
+>
+> Hence, if you are looking for the documentation for newer versions of Axon Framework, Axon Server, or any of the Framework Extensions, we strongly recommend you browse to [AxonIQ Docs](https://docs.axoniq.io/) instead.
+
 [Kotlin](https://kotlinlang.org/) is a programming language which interoperates fully with Java and the JVM. As Axon is written in Java it can be used in conjunction with Kotlin too, offering a different feel when using the framework.
 
 Some of Axon's API's work perfectly well in Java, but have a rather awkward feel when transitioning over to Kotlin. The goal of the [Kotlin Extension](https://github.com/AxonFramework/extension-kotlin) is to remove that awkwardness, by providing [inline and reified](https://kotlinlang.org/docs/reference/inline-functions.html) methods of Axon's API.
