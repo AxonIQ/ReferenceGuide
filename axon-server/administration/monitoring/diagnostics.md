@@ -2,7 +2,7 @@
 
 When reaching out to AxonIQ for Axon Server support related questions, the support team needs information about the environment and its current state. Axon Server provides an endpoint that collects the relevant information into a zip file.
 
-The URL is `internal/diagnose/download`.
+The URL is `v1/diagnose/download` (in Axon Server versions before 2024.0 the URL is `internal/diagnose/download`).
 
 The zip file contains the following information:
 

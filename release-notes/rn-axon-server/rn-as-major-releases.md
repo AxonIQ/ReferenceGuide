@@ -1,5 +1,32 @@
 # Major Releases
 
+## Release 2024.1
+
+### Persistent streams
+
+Persistent streams provide the option to open an event stream from a client and let Axon Server track the progress. This
+was already available as a preview version in 2024.0, but is now available by default. Persistent streams are supported
+in Axon Framework 4.10 as an alternative to tracking or pooled streaming event processors.
+
+For more information see [subcribing event processor](https://library.axoniq.io/axon_framework_old_ref/events/event-processors/subscribing.html) in the Axon Framework section.
+
+### Bug fixes and improvements
+
+- Prevent stale threads when an Axon Server node closes the connection to another node
+- Clean up metrics from disconnected clients
+- prevent WARN log messages when a query completed message was received from an unexpected client
+- Allow context with ephemeral events without a license
+- Fix for listing event processors when there are more than 512 event processors
+
+### Docker image changes
+
+The default Java version for the Docker images has changed from Java 11 to Java 17. This means that the docker images with tag "latest", "latest-nonroot", "2024.1.0", and "2024.1.0-nonroot" use Java 17. Java 11 based images are still available with the "-jdk-11" extensions in the tag name.
+
+### Dependency updates
+
+- gRPC version updated to 1.65.1
+
+
 ## Release 2024.0
 
 ### Database Update

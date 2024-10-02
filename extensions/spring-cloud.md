@@ -1,5 +1,12 @@
 # Spring Cloud
 
+> Legacy Documentation Warning!
+>
+> Since the first of October 2024, we moved Axon's documentation from the "Reference Guide" to "AxonIQ Docs."
+> You can find the latter at https://docs.axoniq.io/
+>
+> Hence, if you are looking for the documentation for newer versions of Axon Framework, Axon Server, or any of the Framework Extensions, we strongly recommend you browse to [AxonIQ Docs](https://docs.axoniq.io/) instead.
+
 Spring Cloud is an alternative approach to distributing the command bus \(commands\), besides Axon Server as the default.
 
 The Spring Cloud Extension uses the service registration and discovery mechanism described by [Spring Cloud](https://spring.io/projects/spring-cloud) for distributing the command bus. 

@@ -1,5 +1,12 @@
 # Spring Ahead of Time
 
+> Legacy Documentation Warning!
+>
+> Since the first of October 2024, we moved Axon's documentation from the "Reference Guide" to "AxonIQ Docs."
+> You can find the latter at https://docs.axoniq.io/
+>
+> Hence, if you are looking for the documentation for newer versions of Axon Framework, Axon Server, or any of the Framework Extensions, we strongly recommend you browse to [AxonIQ Docs](https://docs.axoniq.io/) instead.
+
 [Spring AOT processing](https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html#native-image.introducing-graalvm-native-images.understanding-aot-processing)
 is part of the process to create a native binary from a Spring (Boot) application. This extension will help in adding a
 lot of hints which are needed for Axon Framework. Please note this extension can only be used with Spring Boot 3, as

@@ -4,7 +4,8 @@ The release notes section for the Axon Server for all major/minor releases.
 
 | Release Type                   | Version                                          |
 |:-------------------------------|:-------------------------------------------------|
-| _**Major**_                    | [2024.0](rn-as-major-releases.md#release-2024.0) |
+| _**Major**_                    | [2024.1](rn-as-major-releases.md#release-2024.1) |
+|                                | [2024.0](rn-as-major-releases.md#release-2024.0) |
 |                                | [2023.2](rn-as-major-releases.md#release-2023.2) |
 |                                | [2023.1](rn-as-major-releases.md#release-2023.1) |
 |                                | [2023.0](rn-as-major-releases.md#release-2023.0) |

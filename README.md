@@ -1,5 +1,12 @@
 # Introduction
 
+> Legacy Documentation Warning!
+>
+> Since the first of October 2024, we moved Axon's documentation from the "Reference Guide" to "AxonIQ Docs."
+> You can find the latter at https://docs.axoniq.io/
+>
+> Hence, if you are looking for the documentation for newer versions of Axon Framework, Axon Server, or any of the Framework Extensions, we strongly recommend you browse to [AxonIQ Docs](https://docs.axoniq.io/) instead.
+
 Welcome to the Axon Manual!
 
 Axon provides the Axon Framework and the Axon Server to help build applications centered on three core concepts - CQRS \(Command Query Responsibility Segregation\) / Event Sourcing and DDD \(Domain Driven Design\).
@@ -13,7 +20,9 @@ There, you will find information about Axon training, support options, upcoming 
 > **Monitoring with AxonIQ Console**
 >
 > We have built a platform that makes it very easy to monitor your Axon Framework applications.  It measures everything in your applications, aggregates, metrics and processors.
+>
 > ![../../.gitbook/assets/console/graphs.png](../../.gitbook/assets/console/graphs.png)
+>
 > You can find more information on our [product page](https://www.axoniq.io/products/axoniq-console) or [log in directly](https://console.axoniq.io/).
 
 ## How to use this guide

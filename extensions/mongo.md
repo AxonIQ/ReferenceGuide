@@ -1,5 +1,12 @@
 # Mongo
 
+> Legacy Documentation Warning!
+>
+> Since the first of October 2024, we moved Axon's documentation from the "Reference Guide" to "AxonIQ Docs."
+> You can find the latter at https://docs.axoniq.io/
+>
+> Hence, if you are looking for the documentation for newer versions of Axon Framework, Axon Server, or any of the Framework Extensions, we strongly recommend you browse to [AxonIQ Docs](https://docs.axoniq.io/) instead.
+
 The `MongoEventStorageEngine` has an `@PostConstruct` annotated method, called `ensureIndexes` which will generate the indexes required for correct operation. That means, when running in a container that automatically calls `@PostConstruct` handlers, the required unique index on "Aggregate Identifier" and "Event Sequence Number" is created when the event store is created.
 
 Note that there is always a balance between query optimization and update speed. Load testing is ultimately the best way to discover which indices provide the best performance.
